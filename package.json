@@ -2,6 +2,11 @@
   "name": "nextsetupv2",
   "version": "0.1.0",
   "private": true,
+   "husky": {
+    "hooks":{
+      "commit-msg" : "commitlint -E HUSKY_GIT_PARAMS"
+    }
+   },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
