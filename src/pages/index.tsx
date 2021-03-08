@@ -1,7 +1,8 @@
 import React from 'react'
+import '../styles/pages/Index.less'
 import Head from 'next/head'
-const Home: React.FC = () => {
 
+const Home: React.FC = () => {
   return (
     <div className="container-home">
       <Head>
